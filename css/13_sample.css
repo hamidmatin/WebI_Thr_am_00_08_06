@@ -59,15 +59,25 @@ body {
   background-color: #04aa6d !important;
   color: white !important;
 }
+.btn-primary:hover{
+  background-color: hsl(158, 95%, 24%) !important;
+}
 .btn-info {
   background-color: #fff080 !important;
   color: black !important;
+}
+.btn-info:hover{
+  background-color: hsl(53, 100%, 55%) !important;
+
 }
 .btn-light {
   background-color: white !important;
   color: black !important;
 }
+.btn-light:hover{
+  background-color: hsl(0, 0%, 80%) !important;
 
+}
 
 /** example **/
 
