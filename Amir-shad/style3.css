@@ -1,0 +1,85 @@
+@font-face {
+    font-family: iraniansans;
+    src: url(/font/Iranian\ Sans.ttf);
+}
+
+.navbar a {
+    font-family: iraniansans 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    padding:0 10px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: blue;
+    height: 50px;
+
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-item {
+    float: right;
+}
+
+.nav-item:hover {
+    background-color: hsl(240, 100%, 30%);
+}
+
+.navbar ul ul {
+    position: absolute;
+    visibility: hidden;
+    
+}
+
+.navbar ul li:hover>ul {
+    visibility: visible;
+}
+
+.navbar li {
+    position: relative;
+}
+.navbar ul ul li a{
+    background-color: aqua;
+    /* list-style: none; */
+    min-width: 200px;
+    /* display: block; */
+
+}
+.navbar ul li ul li:hover > a{
+    background-color: rgb(0, 145, 145);
+}
+.navbar ul li ul{
+    /* right: -10.5mm; */
+}
+
+.nav-item ul li ul {
+    position: absolute;
+    right: 100%;
+    top: 0;
+    padding: 0;
+}
+.nav-item ul li ul li{
+    white-space: nowrap;
+}
+.relative{
+    position: relative;
+}
